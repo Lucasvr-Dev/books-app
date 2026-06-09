@@ -11,8 +11,7 @@ import {
   ActivityIndicator,
 } from 'react-native';
 
-// Troque pelo IP da sua máquina se testar no celular físico
-const API_URL = 'http://192.168.144.100:3000';
+const API_URL = 'http://192.168.144.110:3001';
 
 export default function App() {
   const [livros, setLivros] = useState([]);
